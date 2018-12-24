@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hutech.lamth.moviecollectionsfinal">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Controller.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Category.HanhDong" />
+        <activity android:name=".Category.VienTuong" />
+        <activity android:name=".Category.KinhDi" />
+        <activity android:name=".Category.TatCa" />
+        <activity android:name=".Controller.Search" />
+        <activity android:name=".Controller.Search_null" />
+        <activity android:name=".TheLoaiPhim" />
+        <activity android:name=".ChiTietPhim" />
+        <activity android:name=".UserController.DangNhap" />
+        <activity android:name=".UserController.DangKy" />
+        <activity android:name=".MyComment"></activity>
+    </application>
+
+</manifest>

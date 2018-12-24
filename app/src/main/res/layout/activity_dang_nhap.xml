@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserController.DangNhap">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_container"
+        >
+    <TextView
+        android:id="@+id/textViewTitleSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng Nhập"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_below="@id/textViewTitleSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_margin="20dp"
+        android:hint="Username"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_below="@id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="textPassword"
+        android:layout_margin="20dp"
+        android:hint="Password"/>
+
+    <TextView
+        android:id="@+id/textViewSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chưa có tài khoản"
+        android:textStyle="italic"
+        android:layout_below="@id/editTextPassword"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/textViewSignup"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng Nhập"/>
+    </RelativeLayout>
+    <FrameLayout
+        android:id="@+id/toolbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+            app:titleMarginStart="32dp"
+            />
+
+        <com.miguelcatalan.materialsearchview.MaterialSearchView
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/tim_kiem"
+            android:textColor="@color/item_background"
+            android:textColorHint="@color/item_background"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            app:searchBackIcon="@drawable/ic_arrow_back"
+            app:searchBackground="@color/colorPrimary"
+            app:searchCloseIcon="@drawable/ic_close"
+            app:searchSuggestionBackground="@color/colorPrimary"
+            app:searchSuggestionIcon="@drawable/ic_info" />
+    </FrameLayout>
+</RelativeLayout>

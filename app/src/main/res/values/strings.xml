@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Movies Collection</string>
+    <string name="kind">Thể loại</string>
+    <string name="new_movies">Phim mới</string>
+    <string name="setting">Cài đặt</string>
+    <string name="demo">Demo</string>
+    <string name="poster">Poster</string>
+    <string name="phim_h_nh_ng">Phim được yêu thích nhất</string>
+    <string name="c_c_b_phim_h_nh_ng_c_a_th_ch_nh_t">Các bộ phim hành động được ưa thích nhất</string>
+    <string name="them">Thêm...</string>
+    <string name="phim_khoa_hoc_vien_tuong">Phim mới cho bạn</string>
+    <string name="description_phim_khoa_hoc_vien_tuong">Những bộ mới nhất dành cho bạn</string>
+    <string name="phim_kinh_di">Phim kinh dị</string>
+    <string name="desciption_phim_kinh_di">Phim kinh dị đặc sắc</string>
+    <string name="tim_kiem">Tìm kiếm</string>
+    <string name="tat_ca_phim">Tất cả phim</string>
+    <string name="tat_ca_phim_description">Xem tất cả phim</string>
+    <string name="khong_tim_thay">Không tìm thấy kết quả nào !!!</string>
+    <string name="KhongTimThay">Không tìm thấy</string>
+</resources>

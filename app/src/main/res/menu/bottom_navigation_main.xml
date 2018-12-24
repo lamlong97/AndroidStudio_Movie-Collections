@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_hot_movies"
+        android:enabled="true"
+        android:icon="@drawable/ic_hot_movies"
+        app:showAsAction="ifRoom"
+        android:title="@string/new_movies" />
+
+    <item
+        android:id="@+id/action_category"
+        android:enabled="true"
+        android:icon="@drawable/ic_whatshot"
+        app:showAsAction="ifRoom"
+        android:title="@string/kind" />
+
+    <item
+        android:id="@+id/action_setting"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="ifRoom"
+        android:title="@string/setting" />
+
+</menu>
