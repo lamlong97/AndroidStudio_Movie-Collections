@@ -1,1 +1,2 @@
-# AndroidStudio_Movie-Collections
+# Đồ án môn học
+Movie Collections
